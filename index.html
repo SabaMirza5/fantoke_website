@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./assets/js/tailwindcss.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/css/AOS.css" />
+    <script src="./assets/js/fontawesom.js"></script>
+    <title>Document</title>
+  </head>
+  <body class="bg-black">
+    <!---- Navbar Code Start  ---->
+    <div class="flex items-center justify-between px-[5%] mt-5 md:mt-12">
+      <img src="./assets/img/logo.png" class="w-[10%] md:w-auto" alt="" />
+      <div class="flex items-center gap-4 md:gap-12">
+        <div class="">
+          <a
+            href=""
+            class="text-white popins text-base lg:text-xl font-semibold uppercase navborder-g rounded-full px-4 py-4 md:px-10 md:py-[22px] bg-[url('./assets/img/navbtn-bg.png')] bg-cover bg-no-repeat"
+          >
+            whitepaper
+            <i class="fa-solid fa-download ml-5"></i>
+          </a>
+        </div>
+        <div id="burger-menu">
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <div id="menu">
+      <ul
+        class="uppercase text-left px-[5%] popins text-[40px] lg:text-[60px] xl:text-[70px] 2xl:text-[100px] font-[250]"
+      >
+        <li><a href="#about" class="hover:font-medium">About</a></li>
+        <li><a href="#feature" class="hover:font-medium">features</a></li>
+        <li><a href="#benefits" class="hover:font-medium">benefits</a></li>
+        <li><a href="#tokonomics" class="hover:font-medium">tokenomics</a></li>
+        <li><a href="#journey" class="hover:font-medium">Roadmap</a></li>
+        <li><a href="#faq" class="hover:font-medium">FAq’s</a></li>
+        <li><a href="#contact" class="hover:font-medium">Contact us</a></li>
+      </ul>
+    </div>
+    <!---- Navbar Code End  ---->
+    <!---- Hero Section Code Start  ---->
+    <section class="px-[5%] relative">
+      <img
+        src="./assets/img/hero-bg.png"
+        class="absolute z-0 top-60 md:top-10 lg:top-0 right-16 md:right-20 xl:right-56 mix-blend-screen w-[80%] md:w-[40%] 2xl:w-auto move-image-horizontal"
+        alt=""
+      />
+      <img
+        src="./assets/img/glow1.png"
+        class="absolute -z-10 left-0 -top-32 fade-image"
+        alt=""
+      />
+      <img
+        src="./assets/img/glow2.png"
+        class="absolute -z-10 right-0 top-60 md:-top-20 lg:-top-80 2xl:top-20 fade-image"
+        alt=""
+      />
+      <div class="pb-10 md:pb-20">
+        <div
+          class="flex flex-col md:flex-row justify-between items-start pt-10 2xl:pt-[250px]"
+        >
+          <div data-aos="fade-right">
+            <h1
+              class="text-[40px] lg:text-[60px] xl:text-[80px] 2xl:text-[120px] poor-story fomt-normal leading-[40px] xl:leading-[100px] 2xl:leading-[130px] uppercase text-white"
+            >
+              Fan Tokens A <br class="hidden lg:block" />
+              New Era in <br class="hidden lg:block" />
+              Music
+            </h1>
+            <p
+              class="text-[15px] lg:text-[20px] text-white popins font-extralight leading-[24px] lg:leading-[50px] mt-3 md:mt-0"
+            >
+              Discover a new era in the music industry where artists
+              <br class="hidden lg:block 2xl:hidden" />
+              have control over their work and <br class="hidden 2xl:block" />
+              fans become part of the journey.
+            </p>
+          </div>
+
+          <div
+            class="xl:basis-1/2 xl:basis-auto glass-bg rounded-[20px] lg:rounded-[40px] bg-[url('./assets/img/cardmbl-bg.png')] lg:bg-[url('./assets/img/card-bg.png')] bg-cover bg-no-repeat mt-60 lg:mt-0"
+            data-aos="fade-left"
+            >
+            <p
+              class="popins text-[18px] lg:text-[28px] leading-[28px] lg:leading-[50px] text-white uppercase px-5 lg:pl-[30px] lg:pr-[70px] py-3 lg:py-5 font-extralight"
+            >
+              Empower artists by selling <br class="hidden lg:block" />
+              music NFTs, engage fans in <br class="hidden lg:block" />
+              their success, and ensure <br class="hidden lg:block" />
+              fairness with blockchain.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Slider Code  -->
+    <div class="relative">
+      <img
+        src="./assets/img/slider-bg.png"
+        class="absolute lg:top-0 left-0 right-0 bottom-0 w-[200%] h-[100%]"
+        alt=""
+      />
+      <div class="swiper mySwiper py-6">
+        <div class="swiper-wrapper">
+          <div
+            class="swiper-slide flex items-center gap-3 lg:gap-6 xl:gap-8 2xl:gap-12"
+          >
+            <p
+              class="popins font-extralight text-base lg:text-lg xl:text-[22px] 2xl:text-[28px] text-white"
+            >
+              Artists Empowered:
+              <span class="text-[#D25733] font-semibold">10,000+</span>
+            </p>
+            <img src="./assets/img/music.png" class="w-4 lg:w-auto" alt="" />
+          </div>
+          <div
+            class="swiper-slide flex items-center gap-3 lg:gap-6 xl:gap-8 2xl:gap-12"
+          >
+            <p
+              class="popins font-extralight text-base lg:text-lg xl:text-[22px] 2xl:text-[28px] text-white"
+            >
+              Songs Tokenized:
+              <span class="text-[#D25733] font-semibold">50,000+</span>
+            </p>
+            <img src="./assets/img/music.png" class="w-4 lg:w-auto" alt="" />
+          </div>
+          <div
+            class="swiper-slide flex items-center gap-3 lg:gap-6 xl:gap-8 2xl:gap-12"
+          >
+            <p
+              class="popins font-extralight text-base lg:text-lg xl:text-[22px] 2xl:text-[28px] text-white"
+            >
+              Active Fans:
+              <span class="text-[#D25733] font-semibold">100,000+</span>
+            </p>
+            <img src="./assets/img/music.png" class="w-4 lg:w-auto" alt="" />
+          </div>
+          <div
+            class="swiper-slide flex items-center gap-3 lg:gap-6 xl:gap-8 2xl:gap-12"
+          >
+            <p
+              class="popins font-extralight text-base lg:text-lg xl:text-[22px] 2xl:text-[28px] text-white"
+            >
+              Royalties Distributed:
+              <span class="text-[#D25733] font-semibold">$2 Million+</span>
+            </p>
+            <img src="./assets/img/music.png" class="w-4 lg:w-auto" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---- Hero Section Code End  ---->
+    <!---- About Section Code Start  ---->
+    <section class="relative py-40 md:py-52" id="about">
+      <img
+        src="./assets/img/glow3.png"
+        class="absolute -z-10 left-0 top-72 fade-image"
+        alt=""
+      />
+      <img
+        src="./assets/img/shap1.png"
+        class="absolute -bottom-5 lg:bottom-0 left-0 z-10 mix-blend-screen w-[40%] md:w-[30%] lg:w-[20%] 2xl:w-auto move-image"
+        alt=""
+      />
+      <img
+        src="./assets/img/shap2.png"
+        class="absolute -top-5 lg:bottom-36 right-0 z-10 mix-blend-screen w-[40%] md:w-[30%] lg:w-[20%] 2xl:w-auto move-image"
+        alt=""
+      />
+      <h2
+        class="text-white poor-story uppercase text-center text-[40px] md:text-[50px] lg:text-[55px] xl:text-[75px] 2xl:text-[100px]" data-aos="fade-down"
+      >
+        About Fan Token
+      </h2>
+      <div class="flex justify-center">
+        <p
+          class="popins text-white font-light text-[15px] lg:text-lg xl:text-[20px] w-[95%] md:w-[70%] lg:w-[70%] xl:w-[70%] 2xl:w-[55%] text-center leading-[30px] lg:leading-[35px] xl:leading-[50px]"
+          data-aos="fade-up"
+        >
+          Fan Token is a groundbreaking platform using blockchain to create a
+          decentralized marketplace for creators, consumers, and businesses. It
+          empowers artists to control their work and builds a direct, fair
+          relationship with fans. Join us in revolutionizing how music is
+          created, shared, and enjoyed.
+        </p>
+      </div>
+      <img src="./assets/img/voice.png" class="hidden lg:block mt-5 lg:mt-10 xl:mt-20" alt="" />
+      <img src="./assets/img/voice-mbl.png" class="block lg:hidden mt-5 lg:mt-10 xl:mt-20" alt="" />
+    </section>
+    <!---- About Section Code End  ---->
+    <!---- Feature Section Code Start  ---->
+    <section class="px-[5%] my-0 md:my-20" id="feature" data-aos="fade-up">
+      <div class="grid grid-cols-1 lg:grid-cols-3 items-center">
+        <div
+          class="lg:pl-10 lg:col-span-2 lg:border-r border-[#333333] lg:border-b border-[#333333] py-0 pb-10 md:py-10"
+        >
+          <h2
+            class="text-white poor-story uppercase text-left text-[40px] lg:text-[50px] xl:text-[60px] 2xl:text-[80px]"
+          >
+            Platform Features
+          </h2>
+          <p
+            class="popins text-white font-light text-base lg:text-lg xl:text-[20px] text-left leading-[26px] xl:leading-[50px]"
+          >
+            Fan Token offers a suite of innovative features designed to empower
+            artists and engage fans like never <br class="hidden lg:block" />
+            before. Explore how our platform can transform your music
+            experience.
+          </p>
+        </div>
+        <div class="lg:pl-10">
+          <div class="flex flex-row lg:flex-col items-center gap-5">
+            <img src="./assets/img/sales.png" class="w-7 md:w-auto" alt="" />
+            <h4
+              class="popins font-semibold text-lg lg:text-[20px] xl:text-[24px] text-white py-5"
+            >
+              Direct NFT Sales
+            </h4>
+          </div>
+          
+          <p class="popins font-light text-base text-[#C1C1C1]">
+            Artists sell music NFTs directly to fans, ensuring fair revenue.
+          </p>
+        </div>
+        <div class="lg:pl-10 lg:border-r border-[#333333] py-0 pt-6 md:py-10">
+          <div class="flex flex-row lg:flex-col items-center gap-5">
+
+          <img src="./assets/img/engagement.png" class="w-7 md:w-auto" alt="" />
+          <h4
+            class="popins font-semibold text-lg lg:text-[20px] xl:text-[24px] text-white py-5"
+          >
+            Fan Engagement
+          </h4>
+          </div>
+          <p class="popins font-light text-base text-[#C1C1C1]">
+            Fans join live auctions, meet artists, and earn royalties.
+          </p>
+        </div>
+        <div class="lg:pl-10 lg:border-r border-[#333333] py-6 md:py-10">
+          <div class="flex flex-row lg:flex-col items-center gap-5">
+          <img src="./assets/img/royalities.png" class="w-7 md:w-auto" alt="" />
+          <h4
+            class="popins font-semibold text-lg lg:text-[20px] xl:text-[24px] text-white py-5"
+          >
+            Transparent Royalties
+          </h4>
+          </div>
+          <p class="popins font-light text-base text-[#C1C1C1]">
+            Blockchain ensures clear, automated royalty distribution.
+          </p>
+        </div>
+        <div class="lg:pl-10 lg:border-t border-[#333333] md:py-10">
+          <div class="flex flex-row lg:flex-col items-center gap-5">
+          <img src="./assets/img/market.png" class="w-7 md:w-auto" alt="" />
+          <h4 class="popins font-semibold text-lg lg:text-[20px] xl:text-[24px] text-white py-5">
+            AI-Powered Marketplace
+          </h4>
+          </div>
+          <p class="popins font-light text-base text-[#C1C1C1]">
+            AI offers personalized music and real-time translation.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!---- Feature Section Code End  ---->
+    <!---- Benefit Section Code Start  ---->
+    <section class="px-[5%] py-0 pb-20 pt-20 md:py-40" id="benefits">
+      <div class="grid grid-cols-1 lg:grid-cols-3">
+        <div class="relative flex justify-center" data-aos="flip-left">
+          <img
+            src="./assets/img/shape-bg.png"
+            class="absolute z-0 w-[100%] md:w-auto 2xl:w-[88%]"
+            alt=""
+          />
+          <img
+            src="./assets/img/shape3.png"
+            class="p-[30px] mix-blend-screen move-image"
+            alt=""
+          />
+        </div>
+        <div class="lg:col-span-2 relative mt-5 md:mt-0 pb-5 md:pb-0" data-aos="flip-right">
+          <img
+            src="./assets/img/head-bg.png"
+            class="absolute z-0 w-full h-full"
+            alt=""
+          />
+          <h2
+            class="text-white poor-story uppercase text-left text-[80px] lg:text-[120px] xl:text-[160px] 2xl:text-[210px] relative z-10 pl-3 lg:pl-10"
+          >
+            Benefits
+          </h2>
+          <p
+            class="popins text-[#C1C1C1] font-light text-lg lg:text-[22px] xl:text-[26px] 2xl:text-[30px] text-right pr-10 leading-normal xl:leading-[50px] relative z-10"
+          >
+            Fan Token transforms the music experience for both artists
+            <br class="hidden lg:block" />
+            and fans. Discover the unique benefits our platform offers.
+          </p>
+        </div>
+      </div>
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-8" >
+        <div class="relative" data-aos="flip-up">
+          <h3
+            class="text-white poor-story uppercase text-left text-[27px] lg:text-[32px] xl:text-[41px] 2xl:text-[50px] relative z-10 pl-3 pt-3 lg:pl-16 lg:pt-16"
+          >
+            Benefits for Artists:
+          </h3>
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 gap-3 lg:gap-8 xl:gap-12 2xl:gap-16 p-3 lg:p-8 xl:p-12 2xl:p-16"
+          >
+            <div>
+              <h4
+                class="popins text-white font-semibold text-base lg:text-xl xl:text-[24px]"
+              >
+                Fair Compensation
+              </h4>
+              <p
+                class="popins text-sm md:text-lg font-normal md:leading-[40px] text-[#C1C1C1]"
+              >
+                Transparent royalties from sales and plays ensure fair rewards.
+              </p>
+            </div>
+            <div>
+              <h4
+                class="popins text-white font-semibold text-base lg:text-xl xl:text-[24px]"
+              >
+                Direct Sales
+              </h4>
+              <p
+                class="popins text-sm md:text-lg font-normal md:leading-[40px] text-[#C1C1C1]"
+              >
+                Sell music NFTs straight to fans, maximizing revenue.
+              </p>
+            </div>
+            <div>
+              <h4
+                class="popins text-white font-semibold text-base lg:text-xl xl:text-[24px]"
+              >
+                Global Reach
+              </h4>
+              <p
+                class="popins text-sm md:text-lg font-normal md:leading-[40px] text-[#C1C1C1]"
+              >
+                Expand your audience and market potential worldwide.
+              </p>
+            </div>
+            <div>
+              <h4
+                class="popins text-white font-semibold text-base lg:text-xl xl:text-[24px]"
+              >
+                Creative Control
+              </h4>
+              <p
+                class="popins text-sm md:text-lg font-normal md:leading-[40px] text-[#C1C1C1] pb-5"
+              >
+                Maintain full control over your music and its distribution.
+              </p>
+            </div>
+          </div>
+          <img
+            src="./assets/img/benefitart-bg.png"
+            class="absolute top-0 z-0 w-full h-full"
+            alt=""
+          />
+        </div>
+        <div class="relative" data-aos="flip-down">
+          <h3
+            class="text-white poor-story uppercase text-left text-[27px] lg:text-[32px] xl:text-[41px] 2xl:text-[50px] relative z-10 pl-3 pt-3 lg:pl-16 lg:pt-16"
+          >
+            Benefits for Fans:
+          </h3>
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 gap-3 lg:gap-8 xl:gap-12 2xl:gap-16 p-3 lg:p-8 xl:p-12 2xl:p-16 relative z-10"
+          >
+            <div>
+              <h4
+                class="popins text-white font-semibold text-base lg:text-xl xl:text-[24px]"
+              >
+                Exclusive Access
+              </h4>
+              <p
+                class="popins text-sm md:text-lg font-normal md:leading-[40px] text-[#C1C1C1]"
+              >
+                Own unique music NFTs and exclusive content.
+              </p>
+            </div>
+            <div>
+              <h4
+                class="popins text-white font-semibold text-base lg:text-xl xl:text-[24px]"
+              >
+                Earn Royalties
+              </h4>
+              <p
+                class="popins text-sm md:text-lg font-normal md:leading-[40px] text-[#C1C1C1]"
+              >
+                Earn a share of royalties from your favorite music.
+              </p>
+            </div>
+            <div>
+              <h4
+                class="popins text-white font-semibold text-base lg:text-xl xl:text-[24px]"
+              >
+                Personal Connection
+              </h4>
+              <p
+                class="popins text-sm md:text-lg font-normal md:leading-[40px] text-[#C1C1C1]"
+              >
+                Engage directly with artists through live events & digital meet
+                &greets.
+              </p>
+            </div>
+            <div>
+              <h4
+                class="popins text-white font-semibold text-base lg:text-xl xl:text-[24px]"
+              >
+                Support Artists
+              </h4>
+              <p
+                class="popins text-sm md:text-lg font-normal md:leading-[40px] text-[#C1C1C1] pb-5"
+              >
+                Directly support artists, contributing to their success & more
+                great music.
+              </p>
+            </div>
+          </div>
+          <img
+            src="./assets/img/benefitfan-bg.png"
+            class="absolute top-0 z-0 w-full h-full"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <!---- Benefit Section Code End  ---->
+    <!---- Tokonomics Section Code Start  ---->
+    <section class="px-[5%] md:my-40" id="tokonomics">
+      <div class="flex flex-col lg:flex-row items-center gap-10 md:gap-32">
+        <div class="basis-1/2">
+          <h2
+            class="text-white poor-story uppercase text-left text-[40px] lg:text-[55px] xl:text-[75px] 2xl:text-[100px]"
+          >
+            Tokenomics
+          </h2>
+          <h3
+            class="popins font-thin text-[30px] lg:text-[38px] xl:text-[42px] 2xl:text-[50px] leading-normal 2xl:leading-[70px] text-white my-0 mb-5 md:my-5"
+          >
+            The Backbone of Fan Token Economy
+          </h3>
+          <p
+            class="popins font-light text-base lg:text-lg xl:text-[20px] leading-normal xl:leading-[50px] text-[#c1c1c1]"
+          >
+            Understanding the distribution and utility of $FAN Tokens is crucial
+            to grasp how Fan Token fosters a fair and transparent ecosystem.
+            Here’s a detailed look at our tokenomics.
+          </p>
+          <div class="flex flex-col md:flex-row justify-between md:items-center mt-8 mb-5 gap-3">
+            <p
+              class="popins font-semibold text-lg lg:text-xl xl:text-[24px] text-white"
+            >
+              Token Distribution:
+            </p>
+            <p class="popins font-normal text-base xl:text-lg text-white">
+              Total Supply:
+              <span class="font-semibold text-[#F2B419]"
+                >1 billion $FAN Tokens</span
+              >
+            </p>
+          </div>
+          <div class="flex items-center gap-2 lg:gap-5 flex-wrap">
+            <img src="./assets/img/1.png" alt="" />
+            <img src="./assets/img/2.png" alt="" />
+            <img src="./assets/img/3.png" alt="" />
+            <img src="./assets/img/4.png" alt="" />
+            <img src="./assets/img/5.png" alt="" />
+          </div>
+          <div>
+            <h3
+              class="popins font-semibold text-lg lg:text-xl xl:text-[24px] text-white mb-2 md:mb-5 mt-12"
+            >
+              Token Release Schedule
+            </h3>
+            <p
+              class="popins font-light text-base xl:text-[20px] text-[#c1c1c1] leading-normal xl:leading-[50px]"
+            >
+              $FAN Tokens will be released progressively based on the number of
+              active users on the platform, ensuring a steady and balanced
+              distribution.
+            </p>
+          </div>
+        </div>
+        <div class="basis-1/2">
+          <img src="./assets/img/tokonomics.png" data-aos="fade-left" alt="" />
+        </div>
+      </div>
+    </section>
+    <!---- Tokonomics Section Code End  ---->
+    <!---- Journey Section Code Start  ---->
+    <section class="px-[5%] py-20 md:py-40 relative" id="journey">
+      <img
+        src="./assets/img/glow4.png"
+        class="absolute -z-10 left-0 top-80 fade-image"
+        alt=""
+      />
+      <img
+        src="./assets/img/shap4.png"
+        class="hidden lg:block absolute top-[30%] right-0 mix-blend-screen move-image"
+        alt=""
+      />
+      <img
+        src="./assets/img/shap5.png"
+        class="hidden lg:block absolute bottom-0 left-0 mix-blend-screen move-image"
+        alt=""
+      />
+      <h2
+        class="text-white poor-story uppercase text-left text-[40px] lg:text-[85px] xl:text-[110px] 2xl:text-[170px]"
+      >
+        Our Journey Ahead
+      </h2>
+      <p
+        class="popins font-thin text-[22px] lg:text-[35px] xl:text-[42px] 2xl:text-[50px] text-white uppercase leading-noraml xl:leading-[80px]"
+      >
+        Follow our strategic milestones as we revolutionize the music industry
+        with Fan Token. Here’s a snapshot of our key phases
+      </p>
+      <div class="lg:w-[47%] md:mb-32 mt-10 md:mt-24" data-aos="fade-up-left">
+        <div
+          class="flex justify-between items-center popins font-thin text-[54px] text-white"
+        >
+          <h3>P</h3>
+          <h3>H</h3>
+          <h3>A</h3>
+          <h3>S</h3>
+          <h3>E</h3>
+          <h3 class="font-semibold text-[#F2B419]">1</h3>
+        </div>
+        <h4 class="popins text-white font-semibold text-[20px] md:text-[24px] my-1 md:my-5">
+
+          Major Exchange Listing
+         
+        </h4>
+        <p class="popind font-light text-base md:text-[20px] text-white">
+
+
+          List $FAN Tokens on major domestic and international exchanges to
+          increase accessibility.
+          
+        </p>
+      </div>
+      <div class="lg:w-[47%] lg:ml-[18%] md:mb-32 my-10 md:mt-24" data-aos="fade-up-left">
+        <div
+          class="flex justify-between items-center popins font-thin text-[54px] text-white"
+        >
+          <h3>P</h3>
+          <h3>H</h3>
+          <h3>A</h3>
+          <h3>S</h3>
+          <h3>E</h3>
+          <h3 class="font-semibold text-[#F2B419]">2</h3>
+        </div>
+        <h4 class="popins text-white font-semibold text-[20px] md:text-[24px] my-1 md:my-5">
+          NFT Marketplace Start
+        </h4>
+        <p class="popind font-light text-base md:text-[20px] text-white">
+          Launch the Fan Token NFT marketplace, enabling artists to tokenize and
+          sell their music.
+        </p>
+      </div>
+      <div class="lg:w-[47%] lg:ml-[36%] pb-10 md:pb-32" data-aos="fade-up-left">
+        <div
+          class="flex justify-between items-center popins font-thin text-[54px] text-white"
+        >
+          <h3>P</h3>
+          <h3>H</h3>
+          <h3>A</h3>
+          <h3>S</h3>
+          <h3>E</h3>
+          <h3 class="font-semibold text-[#F2B419]">3</h3>
+        </div>
+        <h4 class="popins text-white font-semibold text-[20px] md:text-[24px] my-1 md:my-5">
+          Metaverse Platform
+        </h4>
+        <p class="popind font-light text-base md:text-[20px] text-white">
+          Develop and integrate a Metaverse platform, enhancing the virtual
+          music experience.
+        </p>
+      </div>
+      <div class="lg:w-[47%] lg:ml-[53%] pb-32" data-aos="fade-up-left">
+        <div
+          class="flex justify-between items-center popins font-thin text-[54px] text-white"
+        >
+          <h3>P</h3>
+          <h3>H</h3>
+          <h3>A</h3>
+          <h3>S</h3>
+          <h3>E</h3>
+          <h3 class="font-semibold text-[#F2B419]">4</h3>
+        </div>
+        <h4 class="popins text-white font-semibold text-[20px] md:text-[24px] my-1 md:my-5">
+          Go Global
+        </h4>
+        <p class="popind font-light text-base md:text-[20px] text-white">
+          Expand our reach globally, establishing Fan Token as the leading NFT
+          marketplace for music.
+        </p>
+      </div>
+    </section>
+    <!---- Journey Section Code End  ---->
+    <!---- Faq's Section Code Start  ---->
+    <section class="-mt-32 relative" id="faq">
+      <img
+        src="./assets/img/glow5.png"
+        class="absolute -z-10 left-0 -bottom-60 md:-bottom-80 xl:bottom-0 xl:top-20 fade-image"
+        alt=""
+      />
+      <h2
+        class="text-white poor-story uppercase text-left text-[30px] md:text-[50px] px-3 lg:text-[55px] xl:text-[75px] 2xl:text-[100px] text-center" data-aos="fade-up"
+      >
+        You have questions.
+      </h2>
+      <h2
+        class="text-white poor-story uppercase text-left text-[30px] md:text-[50px] px-3 lg:text-[55px] xl:text-[75px] 2xl:text-[100px] flex items-center gap-5 justify-center text-center"
+        data-aos="fade-up"
+      >
+        we have
+        <img src="./assets/img/chat.png" class="w-10 lg:w-auto" alt="" />
+        answers.
+      </h2>
+      <div class="px-[5%] lg:px-[15%] md:pt-20">
+        <div class="w-full p-4">
+          <div id="faq-accordion">
+            <div class="faq-item border-b border-[#333333] py-2" data-aos="fade-up-left">
+              <div
+                class="faq-question flex justify-between items-center cursor-pointer"
+              >
+                <h3 class="text-[24px] font-semibold popins text-white py-7">
+                  What is Fan Token?
+                </h3>
+                <svg
+                  class="w-6 h-6 transform transition-transform duration-200"
+                  fill="none"
+                  stroke="#F2B419"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M18 12H6"
+                  ></path>
+                </svg>
+              </div>
+              <div class="faq-answer mt-2">
+                <p
+                  class="popins font-light text-[16px] leading-normal lg:leading-[40px] text-[#C1C1C1]"
+                >
+                Fan Token is a decentralized platform that allows artists to tokenize their music as NFTs and sell them directly to fans, ensuring fair compensation and fostering a closer connection between artists and their audience.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item border-b border-[#333333] py-2" data-aos="fade-up-right">
+              <div
+                class="faq-question flex justify-between items-center cursor-pointer"
+              >
+                <h3 class="text-[24px] font-semibold popins text-white py-7">
+                  How do I buy music NFTs?
+                </h3>
+                <svg
+                  class="w-6 h-6 transform transition-transform duration-200"
+                  fill="none"
+                  stroke="#F2B419"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 4v16m8-8H4"
+                  ></path>
+                </svg>
+              </div>
+              <div class="faq-answer hidden-answer mt-2">
+                <p
+                  class="popins font-light text-[16px] leading-normal lg:leading-[40px] text-[#C1C1C1]"
+                >
+                To buy music NFTs, you need to register on the Fan Token platform, browse the marketplace, and use $FAN Tokens to purchase the NFTs of your choice.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item border-b border-[#333333] py-2" data-aos="fade-up-left">
+              <div
+                class="faq-question flex justify-between items-center cursor-pointer"
+              >
+                <h3 class="text-[24px] font-semibold popins text-white py-7">
+                  How do artists earn royalties?
+                </h3>
+                <svg
+                  class="w-6 h-6 transform transition-transform duration-200"
+                  fill="none"
+                  stroke="#F2B419"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 4v16m8-8H4"
+                  ></path>
+                </svg>
+              </div>
+              <div class="faq-answer hidden-answer mt-2">
+                <p
+                  class="popins font-light text-[16px] leading-normal lg:leading-[40px] text-[#C1C1C1]"
+                >
+                Artists earn royalties from the initial sale of their NFTs and every subsequent play of their music on the platform and third-party platforms. The blockchain ensures transparent and automated royalty distribution.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item border-b border-[#333333] py-2" data-aos="fade-up-right">
+              <div
+                class="faq-question flex justify-between items-center cursor-pointer"
+              >
+                <h3 class="text-[24px] font-semibold popins text-white py-7">
+                  What are $FAN Tokens?
+                </h3>
+                <svg
+                  class="w-6 h-6 transform transition-transform duration-200"
+                  fill="none"
+                  stroke="#F2B419"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 4v16m8-8H4"
+                  ></path>
+                </svg>
+              </div>
+              <div class="faq-answer hidden-answer mt-2">
+                <p
+                  class="popins font-light text-[16px] leading-normal lg:leading-[40px] text-[#C1C1C1]"
+                >
+                $FAN Tokens are the native currency of the Fan Token platform, used for buying NFTs, supporting artists, and participating in various activities within the ecosystem.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item border-b border-[#333333] py-2" data-aos="fade-up-left">
+              <div
+                class="faq-question flex justify-between items-center cursor-pointer"
+              >
+                <h3 class="text-[24px] font-semibold popins text-white py-7">
+                  How is the token supply distributed?
+                </h3>
+                <svg
+                  class="w-6 h-6 transform transition-transform duration-200"
+                  fill="none"
+                  stroke="#F2B419"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 4v16m8-8H4"
+                  ></path>
+                </svg>
+              </div>
+              <div class="faq-answer hidden-answer mt-2">
+                <p
+                  class="popins font-light text-[16px] leading-normal lg:leading-[40px] text-[#C1C1C1]"
+                >
+                The total supply of 1 billion $FAN Tokens is distributed as follows: 60% for the ecosystem, 10% for PR, 10% for investors, 10% for R&D, and 10% for the team.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item border-b border-[#333333] py-2" data-aos="fade-up-right">
+              <div
+                class="faq-question flex justify-between items-center cursor-pointer"
+              >
+                <h3 class="text-[24px] font-semibold popins text-white py-7">
+                  What is the roadmap for Fan Token?
+                </h3>
+                <svg
+                  class="w-6 h-6 transform transition-transform duration-200"
+                  fill="none"
+                  stroke="#F2B419"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 4v16m8-8H4"
+                  ></path>
+                </svg>
+              </div>
+              <div class="faq-answer hidden-answer mt-2">
+                <p
+                  class="popins font-light text-[16px] leading-normal lg:leading-[40px] text-[#C1C1C1]"
+                >
+                Our roadmap includes four key phases: NFT Marketplace Start, Major Exchange Listing, Metaverse Platform, and Go Global. Each phase is designed to enhance the platform and expand our reach.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---- Faq's Section Code End  ---->
+    <!---- Get in Touch Section Code Start  ---->
+    <section class="px-[5%] py-20 md:py-40" id="contact">
+      <div class="flex flex-col items-center md:flex-row gap-5">
+        <div class="relative basis-1/4" data-aos="fade-right">
+          <img
+            src="./assets/img/contact-bg.png"
+            class=" z-0 2xl:-top-2 h-auto w-full 2xl:w-full "
+            alt=""
+          />
+          <div
+            class="flex flex-col justify-end absolute bottom-5 pl-7  gap-4 h-full "
+          >
+            <div class="flex items-center gap-3">
+              <i class="fa-brands fa-twitter text-[#F2B419]"></i>
+              <p class="text-[#c1c1c1] popins font-light text-base">
+                @FanMusic
+              </p>
+            </div>
+            <div class="flex items-center gap-3">
+              <i class="fa-brands fa-square-facebook text-[#F2B419]"></i>
+              <p class="text-[#c1c1c1] popins font-light text-base">
+                @FanMusic
+              </p>
+            </div>
+            <div class="flex items-center gap-3">
+              <i class="fa-brands fa-square-instagram text-[#F2B419]"></i>
+              <p class="text-[#c1c1c1] popins font-light text-base">
+                @FanMusic
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="basis-3/4 relative" data-aos="fade-left">
+          <img
+            src="./assets/img/getin-bg.png"
+            class="absolute top-5 md:top-0 z-0 w-full h-full glass-bg"
+            alt=""
+          />
+          <h2
+            class="text-white poor-story uppercase text-left text-[55px] mt-10 lg:mt-0 lg:text-[70px] xl:text-[110px] 2xl:text-[160px] relative z-10 pl-3 lg:pl-10"
+          >
+            Get in Touch
+          </h2>
+          <p
+            class="popins text-[#C1C1C1] font-light pl-3 pb-3 lg:pb-5 2xl:pb-24 text-lg lg:text-[24px] xl:text-[30px] text-center md:text-right pr-10 leading-normal xl:leading-[50px] relative z-10"
+          >
+            Stay connected with us on social media for the latest updates
+            <br class="hidden lg:block xl:hidden 2xl:block" />
+            and news. Follow us on Twitter, Facebook, and Instagram.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!---- Get in Touch Section Code End  ---->
+    <!---- Fotter Section Code Start  ---->
+    <section class="border-t border-[#ffffff5d] relative z-10 bg-[#000000]">
+      <div class="px-[5%] py-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 items-center px-5 md:px-0">
+          <img
+          src="./assets/img/logo.png"
+          class="mx-auto my-5 lg:my-0 block md:hidden w-[15%] md:w-auto"
+          alt=""
+        />
+          <ul
+            class="flex items-center justify-between lg:justify-start gap-5 xl:gap-24 text-white popins font-light uppercase text-base py-4 md:py-0"
+          >
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Term & Condition</a></li>
+          </ul>
+
+          <img
+            src="./assets/img/logo.png"
+            class="mx-auto my-5 lg:my-0 hidden md:block"
+            alt=""
+          />
+          <p
+            class="text-white popins font-light uppercase text-base mx-auto lg:ml-auto lg:mx-0"
+          >
+            ©Copyrightfanmusic2024
+          </p>
+        </div>
+      </div>
+    </section>
+    <!---- Fotter Section Code End  ---->
+
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <script src="./assets/js/aos.js"></script>
+
+    <!-- Js Start From Here  -->
+    <!-- Navbar Js Start  -->
+    <script>
+      //       var burgerMenu = document.getElementById("burger-menu");
+      // var overlay = document.getElementById("menu");
+
+      // burgerMenu.addEventListener("click", function () {
+      //   this.classList.toggle("close");
+      //   overlay.classList.toggle("overlay");
+      //   document.body.classList.toggle("menu-open"); // Toggle the class on the body
+      // });
+      var burgerMenu = document.getElementById("burger-menu");
+      var overlay = document.getElementById("menu");
+      var menuLinks = overlay.querySelectorAll("a");
+
+      burgerMenu.addEventListener("click", function () {
+        this.classList.toggle("close");
+        overlay.classList.toggle("overlay");
+        document.body.classList.toggle("menu-open");
+      });
+
+      // Add event listeners to each anchor tag in the menu
+      menuLinks.forEach(function (link) {
+        link.addEventListener("click", function () {
+          burgerMenu.classList.remove("close");
+          overlay.classList.remove("overlay");
+          document.body.classList.remove("menu-open");
+        });
+      });
+    </script>
+    <!-- Navbar Js end  -->
+    <!-- Smooth Slider Js Start  -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 0,
+        speed: 8000,
+        freemode: true,
+        freeModemomentum: true,
+        loop: true,
+        centeredSlides: true,
+        autoplay: {
+          delay: 1,
+          disableOnInteraction: false,
+          pauseOnMouseEnter: true,
+        },
+        breakpoints: {
+          780: {
+            slidesPerView: 2,
+            spaceBetween: 0,
+          },
+          1000: {
+            slidesPerView: 2.7,
+            spaceBetween: 0,
+          },
+          1500: {
+            slidesPerView: 3,
+            spaceBetween: 50,
+            //   spaceBetween:10,
+          },
+        },
+      });
+    </script>
+    <!-- Smooth Slider Js End  -->
+    <!-- Faq Js Start  -->
+    <script>
+      document.querySelectorAll(".faq-question").forEach((item, index) => {
+        item.addEventListener("click", () => {
+          const answer = item.nextElementSibling;
+          const icon = item.querySelector("svg");
+
+          document
+            .querySelectorAll(".faq-answer")
+            .forEach((answerItem, answerIndex) => {
+              const answerIcon =
+                answerItem.previousElementSibling.querySelector("svg");
+              if (answerIndex !== index) {
+                answerItem.classList.add("hidden-answer");
+                answerIcon.innerHTML =
+                  '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path>';
+              }
+            });
+
+          if (answer.classList.contains("hidden-answer")) {
+            answer.classList.remove("hidden-answer");
+            icon.innerHTML =
+              '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 12H6"></path>';
+          } else {
+            answer.classList.add("hidden-answer");
+            icon.innerHTML =
+              '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path>';
+          }
+        });
+      });
+    </script>
+    <!-- Faq Js End  -->
+    <!-- Aos Script  -->
+    <script>
+      AOS.init({
+        duration: 1200,
+      });
+    </script>
+    <!-- Aos Script  -->
+    <!-- Js End Here  -->
+  </body>
+</html>
